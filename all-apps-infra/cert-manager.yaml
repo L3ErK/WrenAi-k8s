@@ -15,7 +15,7 @@ spec:
         valueFiles:
           - $values/infra-deployments/cert-manager/helm-values.yaml
     
-  - repoURL: 'git@github.com:L3ErK/WrenAi-k8s.git'
+  - repoURL: 'https://github.com/L3ErK/WrenAi-k8s.git'
     targetRevision: main
     ref: values
 
