@@ -18,7 +18,7 @@ images:
     newTag: 0.13.1 # Update to new version 0.13.1
 
 resources:
-- "https://github.com/Canner/WrenAI.git/deployment/kustomizations?ref=0.14.0"
+- "https://github.com/Canner/WrenAI.git/deployment/kustomizations?ref=0.15.4-rc"
 #- "https://github.com/Canner/WrenAI.git/deployment/kustomizations?ref=0.5.1"
 
 ### Best practice is to create and deploy Secrets manually, not as part of kustomization or GitOps!
