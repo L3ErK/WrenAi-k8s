@@ -17,17 +17,17 @@ spec:
       valueFiles:
       - '$values/infra-deployments/wrenai/kustomizations/helm-chart_postgresql.yaml'
 
-  - repoURL: 'git@github.com:qdrddr/WrenAi-k8s.git'
+  - repoURL: 'git@github.com:L3ErK/WrenAi-k8s.git'
     targetRevision: main
     ref: values
   
-  - repoURL: 'git@github.com:qdrddr/WrenAi-k8s.git'
+  - repoURL: 'git@github.com:L3ErK/WrenAi-k8s.git'
     path: infra-deployments/wrenai/kustomizations
     targetRevision: main
     kustomize:
       namespace: ai-system
 
-  - repoURL: 'git@github.com:qdrddr/WrenAi-k8s.git'
+  - repoURL: 'git@github.com:L3ErK/WrenAi-k8s.git'
     path: infra-deployments/wrenai/manifests
     targetRevision: main
 
