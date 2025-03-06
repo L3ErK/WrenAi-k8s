@@ -1,4 +1,4 @@
-#kubectl kustomize infra-deployments/wrenai/kustomizations --enable-helm > infra-deployments/wrenai/kustomizations/wrenai.kustimized.yaml
+kubectl kustomize infra-deployments/wrenai/kustomizations --enable-helm > infra-deployments/wrenai/kustomizations/wrenai.kustimized.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: ai-system
